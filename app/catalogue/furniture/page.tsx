@@ -17,8 +17,7 @@ import {
   X,
   Phone,
   Armchair,
-  Chair,
-  Desk,
+  Table,
   Library,
 } from 'lucide-react'
 
@@ -26,8 +25,8 @@ const whatsappNumber = '2349069372983'
 const phoneNumber = '09069372983'
 
 const subcategories = [
-  { id: 'classroom', name: 'Classroom', icon: Desk },
-  { id: 'teacher', name: 'Teacher', icon: Chair },
+  { id: 'classroom', name: 'Classroom', icon: Table },
+  { id: 'teacher', name: 'Teacher', icon: Armchair },
   { id: 'library', name: 'Library', icon: Library },
   { id: 'kindergarten', name: 'Kindergarten', icon: Armchair },
 ]
